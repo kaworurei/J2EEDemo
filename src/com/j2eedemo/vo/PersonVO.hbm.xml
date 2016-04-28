@@ -4,7 +4,7 @@
     "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
 
-    <class name="com.j2eedemo.vo.PersonVO" table="Person" schema="" >
+    <class name="com.j2eedemo.vo.PersonVO" table="Person" schema="" lazy="false">
         <id name="id" column="id"/>
         <property name="personName" column="PersonName"/>
         <property name="personAge" column="PersonAge"/>
